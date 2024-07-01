@@ -24,6 +24,9 @@ form
 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
 
 }
 
@@ -31,7 +34,9 @@ label
 {
     text-align: center;
     margin: 10px;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: cursive, sans-serif;
+    font-weight: bolder;
 
 }
 
@@ -46,5 +51,21 @@ h1
         font-size: 65px;
         margin: 0;
         margin-left: 13px;
+        background-image: linear-gradient(to  right, #f45d5d, #ffa500, #ffff00);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+.container
+{
+    width: 100%;
+}
+
+#url
+{
+    width: 400px !important;
+    height: 40px;
+    border-radius: 20px;
+
 }
 
