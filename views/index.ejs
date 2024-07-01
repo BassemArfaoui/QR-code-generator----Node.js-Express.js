@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>QR.me</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <form action="/submit" method="post">
-        <label for="url">URL:</label>
-        <input type="text" name="url" id="url">
-        <input type="submit" value="send">
-    </form>
+<h1 >QR.me</h1>
+<div class="main">
+    
+    <div class="container">
+        <form action="/submit" method="post">
+            <label for="url">URL:</label>
+            <input type="text" name="url" id="url">
+            <input type="submit" value="send">
+        </form>
+    </div>
     <% if(locals.pic){ %>
         <img src="<%= pic%>" alt="">
     <% } %>
+</div>
 </body>
 </html>
