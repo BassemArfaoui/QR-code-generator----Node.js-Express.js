@@ -9,17 +9,20 @@
 <body>
 <h1 >QR.me</h1>
 <div class="main">
-    
-    <div class="container">
-        <form action="/submit" method="post">
-            <label for="url">URL:</label>
-            <input type="text" name="url" id="url" placeholder="Enter your URL here" required>
-            <input type="submit" value="send">
-        </form>
+
+    <div class="box">
+        <div class="container">
+            <form action="/submit" method="post">
+                <label for="url">URL:</label>
+                <input type="text" name="url" id="url" placeholder="Enter your URL here" required>
+                <input type="submit" value="Send" class="send">
+            </form>
+        </div>
+        <% if(locals.pic){ %>
+            <img src="<%= pic%>" alt="">
+        <% } %>
     </div>
-    <% if(locals.pic){ %>
-        <img src="<%= pic%>" alt="">
-    <% } %>
+
 </div>
 </body>
 </html>

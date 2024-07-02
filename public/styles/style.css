@@ -5,6 +5,20 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+
+
     
 }
 
@@ -26,15 +40,14 @@ form
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 27px;
+    gap: 15px;
 
 }
 
 label
 {
     text-align: center;
-    margin: 10px;
-    font-size: 40px;
+    font-size: 25px;
     font-family: cursive, sans-serif;
     font-weight: bolder;
 
@@ -46,15 +59,14 @@ h1
         font-family: cursive, sans-serif;
         font-weight: bolder;
         font-style: italic;
-
-        
-        font-size: 65px;
+        font-size: 40px;
         margin: 0;
         margin-left: 13px;
-        background-image: linear-gradient(to  right, #f45d5d, #ffa500, #ffff00);
+        background-image:linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
+
 }
 .container
 {
@@ -65,7 +77,61 @@ h1
 {
     width: 400px !important;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 3px solid rgb(74, 71, 71);
+    outline: none;
 
 }
+
+
+#url::placeholder {
+ text-align: center;
+ font-weight: bolder;
+ font-size: 17px;opacity: 0.45;
+  }
+
+  .box
+  {
+    border: 3px solid black;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    
+  }
+
+  .send
+  {
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 0.6mm solid rgb(74, 71, 71);
+    background-color: #47b3f1;
+    color: rgb(75, 70, 70);
+    margin-bottom: 20px;
+    transition: transform 0.5s ease ;
+  }
+
+  .send:active
+  {
+    transform: scale(0.9);
+  }
+
+  .send:hover
+  {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #00000099;
+    transform: translate(-2px ,-2px);
+  }
+
+  img
+  {
+    border-radius: 10px;
+    border: 3px solid rgb(74, 71, 71);
+    
+  }
 
