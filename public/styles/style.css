@@ -15,7 +15,7 @@ body
     padding: 0;
     height: 100vh;
     background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: linear-gradient(62deg,#1500ff ,#2d90f3 , #8EC5FC 0%, #E0C3FC 100%);
     
 
 
@@ -93,7 +93,7 @@ h1
 
   .box
   {
-    border: 3px solid black;
+   
     padding: 50px 30px;
     display: flex;
     flex-direction: column;
