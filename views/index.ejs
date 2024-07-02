@@ -15,11 +15,12 @@
             <form action="/submit" method="post">
                 <label for="url">URL:</label>
                 <input type="text" name="url" id="url" placeholder="Enter your URL here" required>
-                <input type="submit" value="Send" class="send">
+                <input type="submit" value="Generate" class="send">
             </form>
         </div>
         <% if(locals.pic){ %>
-            <img src="<%= pic%>" alt="">
+            <img src="<%= pic%>" alt="" width="160">
+            <a href="<%= pic%>" download class="download">download</a>
         <% } %>
     </div>
 
