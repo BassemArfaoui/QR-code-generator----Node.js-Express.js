@@ -1,4 +1,4 @@
-This is a simple qr-code generator using one the qr-image module from npm
+This is a simple qr-code generator using npm modules 
 
 
 
